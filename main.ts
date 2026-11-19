@@ -6,6 +6,12 @@
 // most 1 MiB and 1024 by 1024 pixels, and the judge sees exactly the bytes
 // copied.
 //
+// The image: a 1024x1024 PNG of 151,409 bytes (under the 1 MiB gate limit),
+// drawn from the verified news of Wednesday 18 November 2026 — Iran's
+// strikes on U.S. bases in Kuwait and Bahrain, the Xi–Putin meeting in
+// Shenzhen, Peltola's Alaska win, Voyager 1's one light-day, and the Congo
+// Ebola outbreak — by render_frontpage.py in this repository.
+//
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
