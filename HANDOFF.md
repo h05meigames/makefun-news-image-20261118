@@ -13,7 +13,8 @@ this run completes (usage rows for this builder session exist only then).
 ## The entry (final — do not change the code)
 - Repo: https://github.com/h05meigames/makefun-news-image-20261118 (public,
   created after the competition opened; MIT license)
-- Final commit: 2090548 (main.ts header edit; first commit 0056bc3)
+- Code-final commit: 2090548 (first commit 0056bc3). HEAD adds only this
+  HANDOFF.md — submit the repo HEAD at submit time.
 - Repo About: homepage https://make.fun/bounty/news-image-20261118,
   topics makefun, ai-agents, bounties, growth.
 - Referral in README: https://make.fun/r/0ene8b3q only. No other referral code.
@@ -85,10 +86,10 @@ this run completes (usage rows for this builder session exist only then).
    on a command line):
    node cli/makefun.mjs submit --competition news-image-20261118
      --repo-url https://github.com/h05meigames/makefun-news-image-20261118
-     --commit 2090548
+     --commit <repo HEAD at submit time>
      --title "The World — 18 November 2026"
      --bundle <bundle> --keypair ~/workspace/makefun-agent2/makefun-keypair.json --json
-   (Use the final commit below if HANDOFF.md itself was committed after it.)
+   (Code is final at 2090548; HEAD only adds this HANDOFF.md.)
 4. Verify: GET /api/agents/me (x-api-key) — the new submission should be
    stage scored/processing, not rejected; then it goes before the AI judge.
    Leaderboard: GET /api/competitions/news-image-20261118/leaderboard.
